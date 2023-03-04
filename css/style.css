@@ -67,9 +67,22 @@ nav ul{
     justify-content: space-between;
     margin-top: 10px;
 }
+@media(min-width: 320px) and (max-width: 480px){
+   nav ul{
+    position: relative;
+    bottom: -27px;
+    right: 121px;
+    }
+}
 nav ul li{
     margin-right: 20px;
     font-size: 17px;
+}
+@media(min-width: 320px) and (max-width: 480px){
+   nav ul li{
+   margin-right: 6px;
+   font-size: 12px;
+   }
 }
 @media (min-width: 480px) and (max-width: 768px){
     nav ul li{
@@ -389,7 +402,8 @@ ul li span{
 .services i{
     margin-bottom: 20px;
     color: var(--main-color);
-        font-size: 35px;
+     font-size: 35px;
+     margin-top: 10px;
 }
 .services h3{
     color:var(--secoun-color);
@@ -401,6 +415,11 @@ ul li span{
     margin-left: 5px;
     margin-right: 5px;
     color:var(--secoun-color);
+     padding-bottom: 20px;
+}
+.services div:hover {
+    background: #FFF;
+    transition: .5s;
 }
 /* end service */
 /* start content */
@@ -537,7 +556,7 @@ ul li span{
 
  } 
  .feedback {
-    padding-bottom: 400px;
+    padding-bottom: 550px;
     /* padding-left: 350px; */
  }
  @media (min-width: 320px) and (max-width: 480px){
@@ -764,6 +783,11 @@ ul li span{
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+}
+@media(min-width: 320px) and (max-width: 480px){
+   .contactus .three input{
+        left: 0;
+    }
 }
 @media (min-width: 480px) and (max-width: 768px){
    .contactus .three input
